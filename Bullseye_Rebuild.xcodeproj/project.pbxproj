@@ -13,6 +13,9 @@
 		248BEEE3242D32DC00FEA5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248BEEE2242D32DC00FEA5A5 /* Assets.xcassets */; };
 		248BEEE6242D32DC00FEA5A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248BEEE5242D32DC00FEA5A5 /* Preview Assets.xcassets */; };
 		248BEEE9242D32DC00FEA5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248BEEE7242D32DC00FEA5A5 /* LaunchScreen.storyboard */; };
+		248F31602434294000F5CAF5 /* Revamped.otf in Resources */ = {isa = PBXBuildFile; fileRef = 248F315F2434294000F5CAF5 /* Revamped.otf */; };
+		248F31622435609200F5CAF5 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F31612435609200F5CAF5 /* AboutView.swift */; };
+		24C8C31D2434280E00BCBE73 /* minecraft-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C8C31B2434272100BCBE73 /* minecraft-font.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		248BEEE5242D32DC00FEA5A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		248BEEE8242D32DC00FEA5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248BEEEA242D32DC00FEA5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248F315F2434294000F5CAF5 /* Revamped.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Revamped.otf; sourceTree = "<group>"; };
+		248F31612435609200F5CAF5 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		24C8C31B2434272100BCBE73 /* minecraft-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "minecraft-font.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		248BEEDB242D32DA00FEA5A5 /* Bullseye_Rebuild */ = {
 			isa = PBXGroup;
 			children = (
+				248F315F2434294000F5CAF5 /* Revamped.otf */,
+				24C8C31B2434272100BCBE73 /* minecraft-font.ttf */,
 				248BEEDC242D32DA00FEA5A5 /* AppDelegate.swift */,
 				248BEEDE242D32DA00FEA5A5 /* SceneDelegate.swift */,
 				248BEEE0242D32DA00FEA5A5 /* ContentView.swift */,
+				248F31612435609200F5CAF5 /* AboutView.swift */,
 				248BEEE2242D32DC00FEA5A5 /* Assets.xcassets */,
 				248BEEE7242D32DC00FEA5A5 /* LaunchScreen.storyboard */,
 				248BEEEA242D32DC00FEA5A5 /* Info.plist */,
@@ -136,6 +145,8 @@
 				248BEEE9242D32DC00FEA5A5 /* LaunchScreen.storyboard in Resources */,
 				248BEEE6242D32DC00FEA5A5 /* Preview Assets.xcassets in Resources */,
 				248BEEE3242D32DC00FEA5A5 /* Assets.xcassets in Resources */,
+				24C8C31D2434280E00BCBE73 /* minecraft-font.ttf in Resources */,
+				248F31602434294000F5CAF5 /* Revamped.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248F31622435609200F5CAF5 /* AboutView.swift in Sources */,
 				248BEEDD242D32DA00FEA5A5 /* AppDelegate.swift in Sources */,
 				248BEEDF242D32DA00FEA5A5 /* SceneDelegate.swift in Sources */,
 				248BEEE1242D32DA00FEA5A5 /* ContentView.swift in Sources */,
